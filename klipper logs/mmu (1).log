@@ -1,0 +1,28 @@
+09:09:05 > MMU_PRINT_END STATE=standby IDLE_TIMEOUT=1
+10:33:47   DEBUG: Klipper disconnected!
+10:34:00 
+         
+         
+         MMU Startup -----------------------------------------------
+         
+10:34:00   DEBUG: Found tmc2209 on gear_stepper. Current control enabled. Stallguard 'touch' homing possible.
+10:34:00   DEBUG: Found tmc2209 on extruder. Current control enabled. Stallguard 'touch' homing possible.
+10:34:00   DEBUG: Loaded saved bowden lengths: [1520.6, 1520.6, 1520.6, 1520.6, 1520.6, 1520.6, 1520.6, 1520.6, 1520.6, 1520.6, 1520.6, 1520.6, 1520.6, 1520.6]
+10:34:00   DEBUG: Loaded saved gear rotation distances: [22.438448, 22.438448, 22.438448, 22.438448, 22.438448, 22.438448, 22.438448, 22.438448, 22.438448, 22.438448, 22.438448, 22.438448, 22.438448, 22.438448]
+10:34:00   DEBUG: Loaded saved selector offsets: [0.8, 17.8, 34.8, 51.8, 68.8, 85.8, 102.8, 119.8, 136.8, 153.8, 170.8, 187.8, 204.8, 221.8]
+10:34:00   DEBUG: Found tmc2209 on selector_stepper. Stallguard 'touch' movement and recovery possible.
+10:34:01   DEBUG: Loading persisted MMU state
+10:34:01   DEBUG: LEDs support is not configured
+10:34:03 > __MMU_BOOTUP
+10:34:03 (\_/)
+         ( *,*)
+         (")_(") Happy Hare v3.2.0 Ready...
+10:34:03   DEBUG: Job State: READY -> INITIALIZED (MMU State: Encoder: n/a, Synced: False, Paused temp: None, Resume to state: ready, Position saved for: , pause_resume: False, Idle timeout: 600.00s)
+10:34:03 Gate : | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10| 11| 12| 13|
+         Tools: |T0 |T1 |T2 |T3 |T4 |T5 |T6 |T7 |T8 |T9 |T10|T11|T12|T13|
+         Avail: | S | B |   | S |   |   |   |   |   |   |   |   |   |   |
+         Selct: ------------|\ /|---------------------------------------- T3
+10:34:03 [T3] > (g) .......... (e) .. [Ex .. (t) .. Nz] UNLOADED 0.0mm
+10:34:04 > MMU_STATS COUNTER=mmu_restarts INCR=1
+10:34:04 > MMU_STATS COUNTER=servo_down LIMIT=5000 WARNING="Inspect servo mechanism for wear/damage"
+10:34:04 > MMU_STATS COUNTER=cutter_blade LIMIT=3000 WARNING="Inspect/replace filament cutting blade"
